@@ -1,7 +1,6 @@
+// @flow
 import Component from './component.js';
 import Img from './img.js';
-
-// @flow
 
 export default class PizzaThumbnail extends Component{
 	constructor(pizza: {nom: string,base: string,prix_petite: number, prix_grande: number}){

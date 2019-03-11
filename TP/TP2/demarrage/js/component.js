@@ -2,11 +2,11 @@
 export default class Component{
 	tag: string;
 	attribute:?{name:string,value:string};
-	children: void |string | Component | Array<string | Component>;
+	children: void | null|string | Component | Array<string | Component>;
 	attributeEmpty: boolean = false;
 	childrenEmpty: boolean = false;
 
-	constructor(tag: string,attribute: ?{name:string,value:string},children: void | string | Component | Array<string | Component>){
+	constructor(tag: string,attribute: ?{name:string,value:string},children: void | null | string | Component | Array<string | Component>){
 		this.tag = tag;
 		this.attribute = attribute;
 		this.children = children;

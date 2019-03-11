@@ -1,6 +1,5 @@
-import Component from './component.js';
-
 // @flow
+import Component from './component.js';
 
  export default class Img extends Component{
 	constructor(path: string){
